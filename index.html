@@ -1,0 +1,264 @@
+<html>
+  <head>
+    <title></title>
+    <!--linked external css-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<!--element selectors-->
+<p>Every paragraph will be affected by the style.</p>
+<p>And me!</p>
+<!--id selector-->
+<p id="para1">para selector</p>
+<!--class selector-->
+<p class="para1">class selector</p>
+<!--universal selector-->
+<h1>Every element on the page will be affected by the style</h1>
+<h2>hello !!!</h2>
+<!--Grouping Selector-->
+<h3>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<h5>This is a paragraph.</p>
+  <!--inline css colors-->
+  <!--background color -->
+  <h1 id="h" >this is h1 tag</h1>
+  <div id="d">this is div</div>
+  <p  id="p">this is para</p>
+  <h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+<!--text color-->
+  <h3 style="color:Tomato;">Hello World</h3>
+
+  <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  
+  <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+<!--border color-->
+<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+
+<h1 style="border: 2px solid Violet;">Hello World</h1>
+<!--color values-->
+<p>Same as color name "Tomato":</p>
+
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+<p>Same as color name "Tomato", but 50% transparent:</p>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+<p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+<!--RGB colors-->
+<h1>Specify colors using rgb / rgba values</h1>
+<h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
+<h2 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h2>
+<h2 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h2>
+<h2 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h2>
+<h2 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h2>
+<h2 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h2>
+<!--shades of gray rgb values-->
+h2 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h2>
+<h2 style="background-color:rgb(90, 90, 90);">rgb(90, 90, 90)</h2>
+<h2 style="background-color:rgb(120, 120, 120);">rgb(120, 120, 120)</h2>
+<h2 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h2>
+<h2 style="background-color:rgb(210, 210, 210);">rgb(210, 210, 210)</h2>
+<h2 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h2>
+<!--hex values-->
+<h1>Specify colors using hex values</h1>
+<h2 style="background-color:#ff0000;">#ff0000</h2>
+<h2 style="background-color:#0000ff;">#0000ff</h2>
+<h2 style="background-color:#3cb371;">#3cb371</h2>
+<h2 style="background-color:#ee82ee;">#ee82ee</h2>
+<h2 style="background-color:#ffa500;">#ffa500</h2>
+<h2 style="background-color:#6a5acd;">#6a5acd</h2>
+<!--shades of gray hex values-->
+<h2 style="background-color:#3c3c3c;">#3c3c3c</h2>
+<h2 style="background-color:#616161;">#616161</h2>
+<h2 style="background-color:#787878;">#787878</h2>
+<h2 style="background-color:#b4b4b4;">#b4b4b4</h2>
+<h2 style="background-color:#f0f0f0;">#f0f0f0</h2>
+<h2 style="background-color:#f9f9f9;">#f9f9f9</h2>
+<!--hsl colors-->
+<h1>Specify colors using HSL values</h1>
+
+<h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+<h2 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h2>
+<h2 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h2>
+<h2 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h2>
+<h2 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h2>
+<h2 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h2>
+<!--hsl shades-->
+<p>The second parameter of hsl() defines the saturation. Less saturation mean less color. 0% is completely gray:</p>
+
+<h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+<h2 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h2>
+<h2 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h2>
+<h2 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h2>
+<h2 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h2>
+<h2 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h2>
+
+<!--background color-->
+<h1>CSS background-color example!</h1>
+<div>
+This is a text inside a div element.
+<p>This paragraph has its own background color.</p>
+We are still in the div element.
+</div>
+<!--background image position-->
+<h1>The background-position Property</h1>
+
+<div id="myDIV">
+This demo shows how to specify where the background image should be positioned.
+</div>
+<!--bg position x property-->
+<div id="bg-image">
+  <h1 id="bg-h1">I am Ramya c</h1>
+</div>
+<!--The background-position-y Property-->
+<div id="y"></div>
+
+<!--background-repeat-->
+<h2>background-repeat: repeat (default)</h2>
+<p>Here, the background image is repeated both vertically and horizontally. The last image will be clipped if it does not fit. This is default:</p>
+<div id="example1">
+  <h3>Hello World!</h3>
+</div>
+
+<h2>background-repeat: space</h2>
+<p>Here, the background-image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images.</p>
+<div id="example2">
+  <h3>Hello World!</h3>
+</div>
+
+<h2>background-repeat: round</h2>
+<p>Here, the background-image is repeated and squished or stretched, to fill the space (no gaps):</p>
+<div id="example3">
+  <h3>Hello World!</h3>
+</div>
+<!--background size-->
+<h2>background-size: auto (default):</h2>
+<div id="ex1">
+  <h2>Hello World</h2>
+  <p>The background image is displayed in its original size.</p>
+</div>
+
+<h2>background-size: 300px 100px:</h2>
+<div id="ex2">
+  <h2>Hello World</h2>
+  <p>Here, the background image is set to 300px wide and 100px high.</p>
+</div>
+<!--block-size Property--
+<h1>The block-size Property</h1>
+
+<div id="box"></div>
+<!--border property--
+<h1 id="solid">A heading with a solid red border</h1>
+
+<h2 id="dotted">A heading with a dotted blue border</h2>
+
+<div id="double">A div element with a double border.</div>
+
+<!--border-block Property--
+<h1 id="sol">A heading with a solid red border in the block direction</h1>
+
+<h2 id="dot">A heading with a dotted blue border in the block direction</h2>
+
+<div id="dou">A div element with a double border in the block direction.</div>
+
+<!-- border-block-color Property--
+<h2>border-block-color: pink:</h2>
+<div id="example01">
+  <p>The border-block-color property defines the color of the borders in the block direction.</p>
+</div>
+
+<h2>border-block-color: pink lightblue:</h2>
+<div id="example02">
+  <p>If two values are set; the first one is for the start in the block direction, and the second one is for the end in the block direction.</p>
+</div>
+
+<!---->
+<!--border property-->
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+<!--border width property-->
+<h2>The border-width Property</h2>
+<p>This property specifies the width of the four borders:</p>
+
+<p class="aaa">Some text.</p>
+<p class="bbb">Some text.</p>
+<p class="ccc">Some text.</p>
+<p class="ddd">Some text.</p>
+<p class="eee">Some text.</p>
+<p class="fff">Some text.</p>
+
+<p><b>Note:</b> The "border-width" property does not work if it is used alone. 
+Always specify the "border-style" property to set the borders first.</p>
+
+
+<!--specific border width-->
+<h2>The border-width Property</h2>
+<p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+
+
+<!--border color property-->
+<h2>The border-color Property</h2>
+<p>The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+<p class="brclr">A solid multicolor border</p>
+
+<!--border styles-->
+<h2>Individual Border Sides</h2>
+<p class="bstyle">2 different border styles.</p>
+
+<!--Border - Shorthand Property-->
+<h2>The border-left Property</h2>
+<p id="brleft">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+
+<h2>The border-bottom Property</h2>
+<p id="brbottom">This property is a shorthand property for border-bottom-width, border-bottom-style, and border-bottom-color.</p>
+
+<!--border radius property-->
+<h2>The border-radius Property</h2>
+<p>This property is used to add rounded borders to an element:</p>
+
+<p class="normal">Normal border</p>
+<p class="round1">Round border</p>
+<p class="round2">Rounder border</p>
+<p class="round3">Roundest border</p>
+<!---->
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
